@@ -1,0 +1,8 @@
+com\camunda\demo\filter\common\FilterCommon.class
+com\camunda\demo\filter\webapp\SpringSecurityAuthenticationProvider.class
+com\camunda\demo\config\RestSecurityConfig.class
+com\camunda\demo\config\ApplicationConfig.class
+com\camunda\demo\filter\rest\StatelessUserAuthenticationFilter.class
+com\camunda\demo\CamundaApplication.class
+com\camunda\demo\config\WebAppSecurityConfig.class
+com\camunda\demo\config\SecurityConfig.class

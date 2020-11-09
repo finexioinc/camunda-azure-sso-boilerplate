@@ -1,0 +1,24 @@
+---
+azure:
+  activedirectory:
+    tenant-id: <provide-value-here>
+    user-group:
+      allowed-groups: User
+camunda:
+  bpm:
+    database:
+      type: postgres
+spring:
+  datasource:
+    password: 786
+    url: "jdbc:postgresql://localhost:5432/camunda"
+    username: postgres
+  security:
+    oauth2:
+      client:
+        registration:
+          azure:
+            client-id: <provide-value-here>
+            client-secret: <provide-value-here>
+domainNameForCreatingNewUsers: "@finexio.com"
+useAzureRolesAsGroups: false
